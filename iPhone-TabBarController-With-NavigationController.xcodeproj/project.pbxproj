@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D145C01313C17D1000A0ADB4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D145C01213C17D1000A0ADB4 /* README */; };
+		D145C01613C17DF700A0ADB4 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D145C01513C17DF700A0ADB4 /* ThirdView.xib */; };
+		D145C01913C17E0700A0ADB4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D145C01813C17E0700A0ADB4 /* ThirdViewController.m */; };
+		D1E66BB313C17CCF00BA05F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB213C17CCF00BA05F2 /* UIKit.framework */; };
+		D1E66BB513C17CCF00BA05F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB413C17CCF00BA05F2 /* Foundation.framework */; };
+		D1E66BB713C17CCF00BA05F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB613C17CCF00BA05F2 /* CoreGraphics.framework */; };
+		D1E66BBD13C17CCF00BA05F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BBB13C17CCF00BA05F2 /* InfoPlist.strings */; };
+		D1E66BC013C17CCF00BA05F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E66BBF13C17CCF00BA05F2 /* main.m */; };
+		D1E66BC313C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E66BC213C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.m */; };
+		D1E66BC613C17CD000BA05F2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BC413C17CD000BA05F2 /* MainWindow.xib */; };
+		D1E66BC913C17CD000BA05F2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E66BC813C17CD000BA05F2 /* FirstViewController.m */; };
+		D1E66BCC13C17CD000BA05F2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E66BCB13C17CD000BA05F2 /* SecondViewController.m */; };
+		D1E66BCF13C17CD000BA05F2 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BCD13C17CD000BA05F2 /* FirstView.xib */; };
+		D1E66BD213C17CD000BA05F2 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BD013C17CD000BA05F2 /* SecondView.xib */; };
+		D1E66BD913C17CD000BA05F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB213C17CCF00BA05F2 /* UIKit.framework */; };
+		D1E66BDA13C17CD000BA05F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB413C17CCF00BA05F2 /* Foundation.framework */; };
+		D1E66BDB13C17CD000BA05F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E66BB613C17CCF00BA05F2 /* CoreGraphics.framework */; };
+		D1E66BE313C17CD000BA05F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BE113C17CD000BA05F2 /* InfoPlist.strings */; };
+		D1E66BE613C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D1E66BE513C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.h */; };
+		D1E66BE813C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E66BE713C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E66BDC13C17CD000BA05F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E66BA513C17CCF00BA05F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E66BAD13C17CCF00BA05F2;
+			remoteInfo = "iPhone-TabBarController-With-NavigationController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D145C01213C17D1000A0ADB4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D145C01513C17DF700A0ADB4 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		D145C01713C17E0700A0ADB4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D145C01813C17E0700A0ADB4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D1E66BAE13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone-TabBarController-With-NavigationController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E66BB213C17CCF00BA05F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1E66BB413C17CCF00BA05F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1E66BB613C17CCF00BA05F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1E66BBA13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-TabBarController-With-NavigationController-Info.plist"; sourceTree = "<group>"; };
+		D1E66BBC13C17CCF00BA05F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1E66BBE13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhone-TabBarController-With-NavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		D1E66BBF13C17CCF00BA05F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1E66BC113C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone_TabBarController_With_NavigationControllerAppDelegate.h; sourceTree = "<group>"; };
+		D1E66BC213C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_TabBarController_With_NavigationControllerAppDelegate.m; sourceTree = "<group>"; };
+		D1E66BC513C17CD000BA05F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D1E66BC713C17CD000BA05F2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D1E66BC813C17CD000BA05F2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D1E66BCA13C17CD000BA05F2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D1E66BCB13C17CD000BA05F2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D1E66BCE13C17CD000BA05F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		D1E66BD113C17CD000BA05F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		D1E66BD813C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-TabBarController-With-NavigationControllerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E66BE013C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-TabBarController-With-NavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
+		D1E66BE213C17CD000BA05F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1E66BE413C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhone-TabBarController-With-NavigationControllerTests-Prefix.pch"; sourceTree = "<group>"; };
+		D1E66BE513C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone_TabBarController_With_NavigationControllerTests.h; sourceTree = "<group>"; };
+		D1E66BE713C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_TabBarController_With_NavigationControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E66BAB13C17CCF00BA05F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BB313C17CCF00BA05F2 /* UIKit.framework in Frameworks */,
+				D1E66BB513C17CCF00BA05F2 /* Foundation.framework in Frameworks */,
+				D1E66BB713C17CCF00BA05F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E66BD413C17CD000BA05F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BD913C17CD000BA05F2 /* UIKit.framework in Frameworks */,
+				D1E66BDA13C17CD000BA05F2 /* Foundation.framework in Frameworks */,
+				D1E66BDB13C17CD000BA05F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1E66BA313C17CCF00BA05F2 = {
+			isa = PBXGroup;
+			children = (
+				D1E66BB813C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController */,
+				D1E66BDE13C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests */,
+				D1E66BB113C17CCF00BA05F2 /* Frameworks */,
+				D1E66BAF13C17CCF00BA05F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E66BAF13C17CCF00BA05F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E66BAE13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController.app */,
+				D1E66BD813C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E66BB113C17CCF00BA05F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E66BB213C17CCF00BA05F2 /* UIKit.framework */,
+				D1E66BB413C17CCF00BA05F2 /* Foundation.framework */,
+				D1E66BB613C17CCF00BA05F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1E66BB813C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D145C01213C17D1000A0ADB4 /* README */,
+				D1E66BC113C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.h */,
+				D1E66BC213C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.m */,
+				D1E66BC413C17CD000BA05F2 /* MainWindow.xib */,
+				D1E66BCD13C17CD000BA05F2 /* FirstView.xib */,
+				D1E66BC713C17CD000BA05F2 /* FirstViewController.h */,
+				D1E66BC813C17CD000BA05F2 /* FirstViewController.m */,
+				D1E66BD013C17CD000BA05F2 /* SecondView.xib */,
+				D1E66BCA13C17CD000BA05F2 /* SecondViewController.h */,
+				D1E66BCB13C17CD000BA05F2 /* SecondViewController.m */,
+				D145C01513C17DF700A0ADB4 /* ThirdView.xib */,
+				D145C01713C17E0700A0ADB4 /* ThirdViewController.h */,
+				D145C01813C17E0700A0ADB4 /* ThirdViewController.m */,
+				D1E66BB913C17CCF00BA05F2 /* Supporting Files */,
+			);
+			path = "iPhone-TabBarController-With-NavigationController";
+			sourceTree = "<group>";
+		};
+		D1E66BB913C17CCF00BA05F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1E66BBA13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController-Info.plist */,
+				D1E66BBB13C17CCF00BA05F2 /* InfoPlist.strings */,
+				D1E66BBE13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController-Prefix.pch */,
+				D1E66BBF13C17CCF00BA05F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1E66BDE13C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E66BE513C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.h */,
+				D1E66BE713C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.m */,
+				D1E66BDF13C17CD000BA05F2 /* Supporting Files */,
+			);
+			path = "iPhone-TabBarController-With-NavigationControllerTests";
+			sourceTree = "<group>";
+		};
+		D1E66BDF13C17CD000BA05F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1E66BE013C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests-Info.plist */,
+				D1E66BE113C17CD000BA05F2 /* InfoPlist.strings */,
+				D1E66BE413C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E66BAD13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E66BEB13C17CD000BA05F2 /* Build configuration list for PBXNativeTarget "iPhone-TabBarController-With-NavigationController" */;
+			buildPhases = (
+				D1E66BAA13C17CCF00BA05F2 /* Sources */,
+				D1E66BAB13C17CCF00BA05F2 /* Frameworks */,
+				D1E66BAC13C17CCF00BA05F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhone-TabBarController-With-NavigationController";
+			productName = "iPhone-TabBarController-With-NavigationController";
+			productReference = D1E66BAE13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1E66BD713C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E66BEE13C17CD000BA05F2 /* Build configuration list for PBXNativeTarget "iPhone-TabBarController-With-NavigationControllerTests" */;
+			buildPhases = (
+				D1E66BD313C17CD000BA05F2 /* Sources */,
+				D1E66BD413C17CD000BA05F2 /* Frameworks */,
+				D1E66BD513C17CD000BA05F2 /* Resources */,
+				D1E66BD613C17CD000BA05F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E66BDD13C17CD000BA05F2 /* PBXTargetDependency */,
+			);
+			name = "iPhone-TabBarController-With-NavigationControllerTests";
+			productName = "iPhone-TabBarController-With-NavigationControllerTests";
+			productReference = D1E66BD813C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E66BA513C17CCF00BA05F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SPK;
+			};
+			buildConfigurationList = D1E66BA813C17CCF00BA05F2 /* Build configuration list for PBXProject "iPhone-TabBarController-With-NavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1E66BA313C17CCF00BA05F2;
+			productRefGroup = D1E66BAF13C17CCF00BA05F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E66BAD13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController */,
+				D1E66BD713C17CD000BA05F2 /* iPhone-TabBarController-With-NavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1E66BAC13C17CCF00BA05F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BBD13C17CCF00BA05F2 /* InfoPlist.strings in Resources */,
+				D1E66BC613C17CD000BA05F2 /* MainWindow.xib in Resources */,
+				D1E66BCF13C17CD000BA05F2 /* FirstView.xib in Resources */,
+				D1E66BD213C17CD000BA05F2 /* SecondView.xib in Resources */,
+				D145C01313C17D1000A0ADB4 /* README in Resources */,
+				D145C01613C17DF700A0ADB4 /* ThirdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E66BD513C17CD000BA05F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BE313C17CD000BA05F2 /* InfoPlist.strings in Resources */,
+				D1E66BE613C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1E66BD613C17CD000BA05F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E66BAA13C17CCF00BA05F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BC013C17CCF00BA05F2 /* main.m in Sources */,
+				D1E66BC313C17CCF00BA05F2 /* iPhone_TabBarController_With_NavigationControllerAppDelegate.m in Sources */,
+				D1E66BC913C17CD000BA05F2 /* FirstViewController.m in Sources */,
+				D1E66BCC13C17CD000BA05F2 /* SecondViewController.m in Sources */,
+				D145C01913C17E0700A0ADB4 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E66BD313C17CD000BA05F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E66BE813C17CD000BA05F2 /* iPhone_TabBarController_With_NavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1E66BDD13C17CD000BA05F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E66BAD13C17CCF00BA05F2 /* iPhone-TabBarController-With-NavigationController */;
+			targetProxy = D1E66BDC13C17CD000BA05F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1E66BBB13C17CCF00BA05F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E66BBC13C17CCF00BA05F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1E66BC413C17CD000BA05F2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E66BC513C17CD000BA05F2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D1E66BCD13C17CD000BA05F2 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E66BCE13C17CD000BA05F2 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		D1E66BD013C17CD000BA05F2 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E66BD113C17CD000BA05F2 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		D1E66BE113C17CD000BA05F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E66BE213C17CD000BA05F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1E66BE913C17CD000BA05F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1E66BEA13C17CD000BA05F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D1E66BEC13C17CD000BA05F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-TabBarController-With-NavigationController/iPhone-TabBarController-With-NavigationController-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-TabBarController-With-NavigationController/iPhone-TabBarController-With-NavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1E66BED13C17CD000BA05F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-TabBarController-With-NavigationController/iPhone-TabBarController-With-NavigationController-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-TabBarController-With-NavigationController/iPhone-TabBarController-With-NavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1E66BEF13C17CD000BA05F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-TabBarController-With-NavigationController.app/iPhone-TabBarController-With-NavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-TabBarController-With-NavigationControllerTests/iPhone-TabBarController-With-NavigationControllerTests-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-TabBarController-With-NavigationControllerTests/iPhone-TabBarController-With-NavigationControllerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D1E66BF013C17CD000BA05F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-TabBarController-With-NavigationController.app/iPhone-TabBarController-With-NavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-TabBarController-With-NavigationControllerTests/iPhone-TabBarController-With-NavigationControllerTests-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-TabBarController-With-NavigationControllerTests/iPhone-TabBarController-With-NavigationControllerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E66BA813C17CCF00BA05F2 /* Build configuration list for PBXProject "iPhone-TabBarController-With-NavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E66BE913C17CD000BA05F2 /* Debug */,
+				D1E66BEA13C17CD000BA05F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E66BEB13C17CD000BA05F2 /* Build configuration list for PBXNativeTarget "iPhone-TabBarController-With-NavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E66BEC13C17CD000BA05F2 /* Debug */,
+				D1E66BED13C17CD000BA05F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E66BEE13C17CD000BA05F2 /* Build configuration list for PBXNativeTarget "iPhone-TabBarController-With-NavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E66BEF13C17CD000BA05F2 /* Debug */,
+				D1E66BF013C17CD000BA05F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1E66BA513C17CCF00BA05F2 /* Project object */;
+}

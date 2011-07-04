@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iPhone-TabBarController-With-NavigationControllerTests' target in the 'iPhone-TabBarController-With-NavigationControllerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
